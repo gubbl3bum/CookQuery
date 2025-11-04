@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian carbonara recipe with creamy egg sauce",
+    "imageUrl": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=300",
+    "prepTime": 25,
+    "difficulty": "medium",
+    "cuisine": "italian",
+    "category": "dinner",
+    "diet": ["vegetarian"],
+    "rating": 4.5,
+    "ingredients": [
+      {"name": "spaghetti", "amount": "400g"},
+      {"name": "eggs", "amount": "4 pcs"},
+      {"name": "parmesan", "amount": "100g"},
+      {"name": "bacon", "amount": "150g"}
+    ],
+    "instructions": [
+      "Cook pasta al dente",
+      "Fry bacon in a pan",
+      "Mix eggs with parmesan",
+      "Combine everything and mix well"
+    ],
+    "author": "Mario Rossi",
+    "publishDate": "2024-10-05"
+  },
+  {
+    "id": 2,
+    "name": "Pad Thai",
+    "description": "Thai stir-fried noodles with shrimp and peanuts",
+    "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=300",
+    "prepTime": 30,
+    "difficulty": "hard",
+    "cuisine": "asian",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.8,
+    "ingredients": [
+      {"name": "rice noodles", "amount": "200g"},
+      {"name": "shrimp", "amount": "300g"},
+      {"name": "fish sauce", "amount": "3 tbsp"},
+      {"name": "peanuts", "amount": "50g"}
+    ],
+    "instructions": [
+      "Soak rice noodles",
+      "Prepare sauce",
+      "Fry shrimp",
+      "Add noodles and mix"
+    ],
+    "author": "Somchai Lee",
+    "publishDate": "2024-09-20"
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "description": "Fresh romaine lettuce with Caesar dressing and croutons",
+    "imageUrl": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=300",
+    "prepTime": 15,
+    "difficulty": "easy",
+    "cuisine": "american",
+    "category": "salad",
+    "diet": ["vegetarian"],
+    "rating": 4.3,
+    "ingredients": [
+      {"name": "romaine lettuce", "amount": "1 head"},
+      {"name": "parmesan", "amount": "50g"},
+      {"name": "croutons", "amount": "100g"},
+      {"name": "Caesar dressing", "amount": "100ml"}
+    ],
+    "instructions": [
+      "Wash and chop lettuce",
+      "Add croutons and parmesan",
+      "Drizzle with dressing",
+      "Toss and serve"
+    ],
+    "author": "Julia Smith",
+    "publishDate": "2024-09-15"
+  },
+  {
+    "id": 4,
+    "name": "Tacos al Pastor",
+    "description": "Mexican pork tacos with pineapple and cilantro",
+    "imageUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=300",
+    "prepTime": 45,
+    "difficulty": "medium",
+    "cuisine": "mexican",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.7,
+    "ingredients": [
+      {"name": "pork shoulder", "amount": "500g"},
+      {"name": "pineapple", "amount": "200g"},
+      {"name": "corn tortillas", "amount": "12 pcs"},
+      {"name": "cilantro", "amount": "1 bunch"}
+    ],
+    "instructions": [
+      "Marinate pork overnight",
+      "Grill pork and pineapple",
+      "Slice meat thinly",
+      "Serve in tortillas with toppings"
+    ],
+    "author": "Carlos Rodriguez",
+    "publishDate": "2024-08-30"
+  },
+  {
+    "id": 5,
+    "name": "Margherita Pizza",
+    "description": "Classic Neapolitan pizza with tomato, mozzarella and basil",
+    "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=300",
+    "prepTime": 20,
+    "difficulty": "medium",
+    "cuisine": "italian",
+    "category": "dinner",
+    "diet": ["vegetarian"],
+    "rating": 4.9,
+    "ingredients": [
+      {"name": "pizza dough", "amount": "1 ball"},
+      {"name": "tomato sauce", "amount": "150ml"},
+      {"name": "mozzarella", "amount": "200g"},
+      {"name": "fresh basil", "amount": "10 leaves"}
+    ],
+    "instructions": [
+      "Roll out pizza dough",
+      "Spread tomato sauce",
+      "Add mozzarella pieces",
+      "Bake at 250°C for 10 minutes",
+      "Top with fresh basil"
+    ],
+    "author": "Giuseppe Verdi",
+    "publishDate": "2024-09-01"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Tikka Masala",
+    "description": "Indian curry with tender chicken in creamy tomato sauce",
+    "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=300",
+    "prepTime": 50,
+    "difficulty": "hard",
+    "cuisine": "indian",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.6,
+    "ingredients": [
+      {"name": "chicken breast", "amount": "600g"},
+      {"name": "yogurt", "amount": "200ml"},
+      {"name": "tikka masala paste", "amount": "3 tbsp"},
+      {"name": "heavy cream", "amount": "150ml"}
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and spices",
+      "Grill chicken pieces",
+      "Prepare curry sauce",
+      "Simmer chicken in sauce",
+      "Serve with rice or naan"
+    ],
+    "author": "Priya Sharma",
+    "publishDate": "2024-08-15"
+  },
+  {
+    "id": 7,
+    "name": "Greek Salad",
+    "description": "Traditional Greek salad with feta cheese and olives",
+    "imageUrl": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300",
+    "prepTime": 10,
+    "difficulty": "easy",
+    "cuisine": "greek",
+    "category": "salad",
+    "diet": ["vegetarian"],
+    "rating": 4.4,
+    "ingredients": [
+      {"name": "tomatoes", "amount": "3 pcs"},
+      {"name": "cucumber", "amount": "1 pc"},
+      {"name": "feta cheese", "amount": "150g"},
+      {"name": "kalamata olives", "amount": "100g"}
+    ],
+    "instructions": [
+      "Chop vegetables",
+      "Add feta and olives",
+      "Drizzle with olive oil",
+      "Season with oregano"
+    ],
+    "author": "Nikos Papadopoulos",
+    "publishDate": "2024-09-10"
+  },
+  {
+    "id": 8,
+    "name": "Beef Pho",
+    "description": "Vietnamese beef noodle soup with aromatic herbs",
+    "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300",
+    "prepTime": 120,
+    "difficulty": "hard",
+    "cuisine": "vietnamese",
+    "category": "soup",
+    "diet": [],
+    "rating": 4.8,
+    "ingredients": [
+      {"name": "beef bones", "amount": "1kg"},
+      {"name": "rice noodles", "amount": "300g"},
+      {"name": "beef sirloin", "amount": "300g"},
+      {"name": "star anise", "amount": "3 pcs"}
+    ],
+    "instructions": [
+      "Simmer bones for 6 hours",
+      "Strain broth",
+      "Cook rice noodles",
+      "Slice beef thinly",
+      "Assemble bowl with hot broth"
+    ],
+    "author": "Linh Nguyen",
+    "publishDate": "2024-07-25"
+  },
+  {
+    "id": 9,
+    "name": "Pancakes",
+    "description": "Fluffy American-style breakfast pancakes",
+    "imageUrl": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=300",
+    "prepTime": 20,
+    "difficulty": "easy",
+    "cuisine": "american",
+    "category": "breakfast",
+    "diet": ["vegetarian"],
+    "rating": 4.5,
+    "ingredients": [
+      {"name": "flour", "amount": "200g"},
+      {"name": "milk", "amount": "250ml"},
+      {"name": "eggs", "amount": "2 pcs"},
+      {"name": "butter", "amount": "50g"}
+    ],
+    "instructions": [
+      "Mix dry ingredients",
+      "Add wet ingredients",
+      "Heat pan with butter",
+      "Pour batter and flip when bubbles form"
+    ],
+    "author": "Sarah Johnson",
+    "publishDate": "2024-09-05"
+  },
+  {
+    "id": 10,
+    "name": "Sushi Roll",
+    "description": "Japanese sushi roll with salmon and avocado",
+    "imageUrl": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=300",
+    "prepTime": 40,
+    "difficulty": "hard",
+    "cuisine": "japanese",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.7,
+    "ingredients": [
+      {"name": "sushi rice", "amount": "300g"},
+      {"name": "nori sheets", "amount": "5 pcs"},
+      {"name": "fresh salmon", "amount": "200g"},
+      {"name": "avocado", "amount": "1 pc"}
+    ],
+    "instructions": [
+      "Cook and season sushi rice",
+      "Place nori on bamboo mat",
+      "Spread rice evenly",
+      "Add salmon and avocado",
+      "Roll tightly and slice"
+    ],
+    "author": "Kenji Tanaka",
+    "publishDate": "2024-08-20"
+  },
+  {
+    "id": 11,
+    "name": "Chocolate Brownies",
+    "description": "Rich and fudgy chocolate brownies",
+    "imageUrl": "https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=300",
+    "prepTime": 35,
+    "difficulty": "easy",
+    "cuisine": "american",
+    "category": "dessert",
+    "diet": ["vegetarian"],
+    "rating": 4.9,
+    "ingredients": [
+      {"name": "dark chocolate", "amount": "200g"},
+      {"name": "butter", "amount": "150g"},
+      {"name": "sugar", "amount": "200g"},
+      {"name": "eggs", "amount": "3 pcs"}
+    ],
+    "instructions": [
+      "Melt chocolate and butter",
+      "Mix in sugar and eggs",
+      "Add flour",
+      "Bake at 180°C for 25 minutes"
+    ],
+    "author": "Emma Wilson",
+    "publishDate": "2024-09-12"
+  },
+  {
+    "id": 12,
+    "name": "Beef Burger",
+    "description": "Juicy homemade beef burger with cheese and toppings",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300",
+    "prepTime": 25,
+    "difficulty": "medium",
+    "cuisine": "american",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.6,
+    "ingredients": [
+      {"name": "ground beef", "amount": "500g"},
+      {"name": "burger buns", "amount": "4 pcs"},
+      {"name": "cheddar cheese", "amount": "4 slices"},
+      {"name": "lettuce", "amount": "4 leaves"}
+    ],
+    "instructions": [
+      "Form beef patties",
+      "Season with salt and pepper",
+      "Grill for 4 minutes each side",
+      "Add cheese and melt",
+      "Assemble burger with toppings"
+    ],
+    "author": "Mike Anderson",
+    "publishDate": "2024-08-28"
+  }
+]
