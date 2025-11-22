@@ -27,7 +27,11 @@
       </div>
 
       <!-- Recipe list -->
-      <RecipeList :recipes="recipes" :loading="loading" />
+      <RecipeList 
+        :recipes="recipes" 
+        :loading="loading"
+        @view-recipe="openRecipeModal"
+      />
       
       <!-- Pagination -->
       <Pagination 
@@ -36,6 +40,13 @@
         @page-change="handlePageChange" 
       />
     </div>
+
+    <!-- Recipe Modal -->
+    <RecipeModal 
+      :isOpen="isModalOpen"
+      :recipe="selectedRecipe"
+      @close="closeRecipeModal"
+    />
 
     <!-- Footer -->
     <footer class="footer">
@@ -51,6 +62,7 @@ import SearchBar from './components/SearchBar.vue';
 import Filters from './components/Filters.vue';
 import RecipeList from './components/RecipeList.vue';
 import Pagination from './components/Pagination.vue';
+import RecipeModal from './components/RecipeModal.vue';
 
 export default {
   name: 'App',
@@ -58,7 +70,8 @@ export default {
     SearchBar,
     Filters,
     RecipeList,
-    Pagination
+    Pagination,
+    RecipeModal
   },
   setup() {
     const recipes = ref([]);
@@ -68,6 +81,10 @@ export default {
     const totalPages = ref(1);
     const totalItems = ref(0);
     const filters = ref({});
+    
+    // Modal state
+    const isModalOpen = ref(false);
+    const selectedRecipe = ref(null);
 
     const fetchRecipes = async () => {
       loading.value = true;
@@ -109,6 +126,20 @@ export default {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
+    const openRecipeModal = (recipe) => {
+      selectedRecipe.value = recipe;
+      isModalOpen.value = true;
+      // Zapobiega scrollowaniu w tle gdy modal jest otwarty
+      document.body.style.overflow = 'hidden';
+    };
+
+    const closeRecipeModal = () => {
+      isModalOpen.value = false;
+      selectedRecipe.value = null;
+      // Przywraca scrollowanie
+      document.body.style.overflow = '';
+    };
+
     onMounted(() => {
       fetchRecipes();
     });
@@ -120,9 +151,13 @@ export default {
       currentPage,
       totalPages,
       totalItems,
+      isModalOpen,
+      selectedRecipe,
       handleSearch,
       handleFilter,
-      handlePageChange
+      handlePageChange,
+      openRecipeModal,
+      closeRecipeModal
     };
   }
 };

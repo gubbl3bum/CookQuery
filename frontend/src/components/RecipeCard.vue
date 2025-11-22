@@ -1,5 +1,5 @@
 <template>
-  <div class="recipe-card">
+  <div class="recipe-card" @click="viewRecipe">
     <div class="recipe-image-wrapper">
       <img :src="recipe.imageUrl" :alt="recipe.name" class="recipe-image" />
       <div class="recipe-overlay">
@@ -32,7 +32,7 @@
             {{ recipe.difficulty }}
           </span>
         </div>
-        <button class="view-btn">View Recipe →</button>
+        <button class="view-btn" @click.stop="viewRecipe">View Recipe →</button>
       </div>
     </div>
   </div>
@@ -46,12 +46,22 @@ export default {
   props: {
     recipe: Object
   },
-  setup(props) {
+  emits: ['view-recipe'],
+  setup(props, { emit }) {
     const difficultyClass = computed(() => {
       return `difficulty-${props.recipe.difficulty}`;
     });
 
-    return { difficultyClass };
+    const viewRecipe = () => {
+      emit('view-recipe', props.recipe);
+      // Możesz też zamiast tego użyć routera (jeśli dodasz Vue Router):
+      // router.push(`/recipe/${props.recipe.id}`);
+    };
+
+    return { 
+      difficultyClass,
+      viewRecipe 
+    };
   }
 };
 </script>

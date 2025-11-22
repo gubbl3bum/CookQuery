@@ -18,7 +18,8 @@
       <RecipeCard 
         v-for="recipe in recipes" 
         :key="recipe.id" 
-        :recipe="recipe" 
+        :recipe="recipe"
+        @view-recipe="$emit('view-recipe', $event)"
       />
     </div>
   </div>
@@ -33,7 +34,8 @@ export default {
   props: {
     recipes: Array,
     loading: Boolean
-  }
+  },
+  emits: ['view-recipe']
 };
 </script>
 
