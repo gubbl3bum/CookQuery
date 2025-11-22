@@ -121,7 +121,7 @@ export default {
 /* === DESKTOP === */
 @media (min-width: 1024px) {
   .recipe-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);  /* Maksymalnie 3 kolumny */
     gap: 2rem;
   }
 
@@ -137,8 +137,8 @@ export default {
 /* === LARGE DESKTOP === */
 @media (min-width: 1400px) {
   .recipe-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);  /* Nadal 3 kolumny, ale szersze */
+    gap: 2.5rem;
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="recipe-card" @click="viewRecipe">
     <div class="recipe-image-wrapper">
-      <img :src="recipe.imageUrl" :alt="recipe.name" class="recipe-image" />
+      <img :src="recipe.imageUrl" :alt="recipe.name" class="recipe-image" loading="lazy" />
       <div class="recipe-overlay">
         <span class="recipe-category">{{ recipe.category }}</span>
       </div>
@@ -14,15 +14,18 @@
       <div class="recipe-meta">
         <div class="meta-item">
           <span class="meta-icon">⏱️</span>
-          <span class="meta-text">{{ recipe.prepTime }} min</span>
+          <span class="meta-label">Prep Time:</span>
+          <span class="meta-value">{{ recipe.prepTime }} Min</span>
         </div>
         <div class="meta-item">
           <span class="meta-icon">⭐</span>
-          <span class="meta-text">{{ recipe.rating }}</span>
+          <span class="meta-label">Rating:</span>
+          <span class="meta-value">{{ recipe.rating }}</span>
         </div>
         <div class="meta-item">
           <span class="meta-icon">🍴</span>
-          <span class="meta-text">{{ recipe.cuisine }}</span>
+          <span class="meta-label">Cuisine:</span>
+          <span class="meta-value">{{ recipe.cuisine }}</span>
         </div>
       </div>
       
@@ -54,8 +57,6 @@ export default {
 
     const viewRecipe = () => {
       emit('view-recipe', props.recipe);
-      // Możesz też zamiast tego użyć routera (jeśli dodasz Vue Router):
-      // router.push(`/recipe/${props.recipe.id}`);
     };
 
     return { 
@@ -148,11 +149,11 @@ export default {
   overflow: hidden;
 }
 
-/* === META === */
+/* === META (VERTICAL LAYOUT) === */
 .recipe-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.75rem;
   margin-bottom: 1.25rem;
   padding: 1rem;
   background: #f8f9fa;
@@ -162,17 +163,41 @@ export default {
 .meta-item {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.9rem;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  padding: 0.6rem 0.75rem;
+  background: white;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.meta-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .meta-icon {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  width: 32px;
+  text-align: center;
 }
 
-.meta-text {
-  color: #555;
+.meta-label {
+  color: #999;
+  font-size: 0.85rem;
   font-weight: 500;
+  min-width: 95px;
+  flex-shrink: 0;
+}
+
+.meta-value {
+  color: #333;
+  font-weight: 600;
+  flex: 1;
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 0.95rem;
 }
 
 /* === FOOTER === */
@@ -190,7 +215,7 @@ export default {
 
 .difficulty-badge {
   display: inline-block;
-  padding: 0.4rem 1rem;
+  padding: 0.5rem 1.1rem;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 600;
@@ -213,7 +238,7 @@ export default {
 }
 
 .view-btn {
-  padding: 0.6rem 1.25rem;
+  padding: 0.65rem 1.25rem;
   background: #667eea;
   color: white;
   border: none;
@@ -241,10 +266,13 @@ export default {
     font-size: 1.2rem;
   }
 
-  .recipe-meta {
-    flex-direction: column;
-    gap: 0.75rem;
-    align-items: flex-start;
+  .meta-label {
+    min-width: 75px;
+    font-size: 0.8rem;
+  }
+  
+  .meta-value {
+    font-size: 0.9rem;
   }
 
   .recipe-footer {
@@ -254,6 +282,17 @@ export default {
   .view-btn {
     width: 100%;
     max-width: none;
+  }
+}
+
+/* === TABLET === */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .recipe-image-wrapper {
+    height: 230px;
+  }
+  
+  .meta-label {
+    min-width: 90px;
   }
 }
 
@@ -269,6 +308,18 @@ export default {
 
   .recipe-title {
     font-size: 1.4rem;
+  }
+  
+  .meta-item {
+    padding: 0.7rem 0.85rem;
+  }
+  
+  .meta-label {
+    min-width: 100px;
+  }
+  
+  .meta-value {
+    font-size: 1rem;
   }
 }
 </style>
