@@ -2,14 +2,12 @@
   <div class="search-bar">
     <input 
       v-model="searchTerm"
-      @input="onSearch"
       @keyup.enter="onSearch"
       type="text" 
       placeholder="Search for a recipe..."
       class="search-input"
     />
-    <button @click="onSearch" class="search-btn">
-      <span class="icon">🔍</span>
+    <button @click="onSearch" class="search-btn" type="button">
       <span class="text">Search</span>
     </button>
   </div>
