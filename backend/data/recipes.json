@@ -315,5 +315,403 @@
     ],
     "author": "Mike Anderson",
     "publishDate": "2024-08-28"
+  },
+  {
+    "id": 14,
+    "name": "Ramen Bowl",
+    "description": "Japanese noodle soup with pork belly and soft-boiled egg",
+    "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=300",
+    "prepTime": 90,
+    "difficulty": "hard",
+    "cuisine": "japanese",
+    "category": "soup",
+    "diet": [],
+    "rating": 4.9,
+    "ingredients": [
+      {"name": "ramen noodles", "amount": "300g"},
+      {"name": "pork belly", "amount": "400g"},
+      {"name": "eggs", "amount": "4 pcs"},
+      {"name": "miso paste", "amount": "3 tbsp"}
+    ],
+    "instructions": [
+      "Prepare rich pork broth",
+      "Braise pork belly",
+      "Soft-boil eggs",
+      "Cook ramen noodles",
+      "Assemble bowl with toppings"
+    ],
+    "author": "Yuki Nakamura",
+    "publishDate": "2024-06-15"
+  },
+  {
+    "id": 15,
+    "name": "Caprese Salad",
+    "description": "Italian salad with fresh mozzarella, tomatoes and basil",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=300",
+    "prepTime": 10,
+    "difficulty": "easy",
+    "cuisine": "italian",
+    "category": "salad",
+    "diet": ["vegetarian"],
+    "rating": 4.4,
+    "ingredients": [
+      {"name": "fresh mozzarella", "amount": "250g"},
+      {"name": "tomatoes", "amount": "4 pcs"},
+      {"name": "fresh basil", "amount": "1 bunch"},
+      {"name": "balsamic vinegar", "amount": "50ml"}
+    ],
+    "instructions": [
+      "Slice tomatoes and mozzarella",
+      "Arrange on plate alternating",
+      "Add fresh basil leaves",
+      "Drizzle with olive oil and balsamic"
+    ],
+    "author": "Antonio Benedetti",
+    "publishDate": "2024-08-05"
+  },
+  {
+    "id": 16,
+    "name": "Fish and Chips",
+    "description": "British battered fish with crispy fries",
+    "imageUrl": "https://images.unsplash.com/photo-1579208570378-8c970854bc23?w=300",
+    "prepTime": 40,
+    "difficulty": "medium",
+    "cuisine": "british",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.6,
+    "ingredients": [
+      {"name": "cod fillets", "amount": "600g"},
+      {"name": "potatoes", "amount": "800g"},
+      {"name": "beer", "amount": "300ml"},
+      {"name": "flour", "amount": "200g"}
+    ],
+    "instructions": [
+      "Cut potatoes into fries",
+      "Prepare beer batter",
+      "Coat fish in batter",
+      "Deep fry fish and chips",
+      "Serve with tartar sauce"
+    ],
+    "author": "James Butler",
+    "publishDate": "2024-07-20"
+  },
+  {
+    "id": 17,
+    "name": "Vegetable Stir Fry",
+    "description": "Quick Asian-style vegetable stir fry with soy sauce",
+    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=300",
+    "prepTime": 15,
+    "difficulty": "easy",
+    "cuisine": "asian",
+    "category": "dinner",
+    "diet": ["vegan", "vegetarian"],
+    "rating": 4.3,
+    "ingredients": [
+      {"name": "mixed vegetables", "amount": "500g"},
+      {"name": "soy sauce", "amount": "4 tbsp"},
+      {"name": "garlic", "amount": "3 cloves"},
+      {"name": "sesame oil", "amount": "2 tbsp"}
+    ],
+    "instructions": [
+      "Heat wok with oil",
+      "Stir fry garlic",
+      "Add vegetables and cook quickly",
+      "Season with soy sauce"
+    ],
+    "author": "Li Wei",
+    "publishDate": "2024-09-18"
+  },
+  {
+    "id": 18,
+    "name": "Tiramisu",
+    "description": "Classic Italian coffee-flavored dessert",
+    "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300",
+    "prepTime": 30,
+    "difficulty": "medium",
+    "cuisine": "italian",
+    "category": "dessert",
+    "diet": ["vegetarian"],
+    "rating": 4.8,
+    "ingredients": [
+      {"name": "ladyfinger biscuits", "amount": "300g"},
+      {"name": "mascarpone", "amount": "500g"},
+      {"name": "espresso", "amount": "200ml"},
+      {"name": "cocoa powder", "amount": "30g"}
+    ],
+    "instructions": [
+      "Brew strong espresso",
+      "Mix mascarpone with sugar",
+      "Dip ladyfingers in coffee",
+      "Layer biscuits and cream",
+      "Dust with cocoa powder and chill"
+    ],
+    "author": "Francesca Romano",
+    "publishDate": "2024-06-30"
+  },
+  {
+    "id": 20,
+    "name": "Croissant",
+    "description": "Flaky French butter pastry",
+    "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300",
+    "prepTime": 180,
+    "difficulty": "hard",
+    "cuisine": "french",
+    "category": "breakfast",
+    "diet": ["vegetarian"],
+    "rating": 4.9,
+    "ingredients": [
+      {"name": "flour", "amount": "500g"},
+      {"name": "butter", "amount": "300g"},
+      {"name": "milk", "amount": "250ml"},
+      {"name": "yeast", "amount": "10g"}
+    ],
+    "instructions": [
+      "Prepare dough and chill",
+      "Laminate with butter layers",
+      "Fold multiple times",
+      "Shape into crescents",
+      "Proof and bake until golden"
+    ],
+    "author": "Pierre Dubois",
+    "publishDate": "2024-05-22"
+  },
+  {
+    "id": 21,
+    "name": "Tom Yum Soup",
+    "description": "Spicy Thai soup with shrimp and lemongrass",
+    "imageUrl": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=300",
+    "prepTime": 25,
+    "difficulty": "medium",
+    "cuisine": "thai",
+    "category": "soup",
+    "diet": [],
+    "rating": 4.7,
+    "ingredients": [
+      {"name": "shrimp", "amount": "400g"},
+      {"name": "lemongrass", "amount": "3 stalks"},
+      {"name": "kaffir lime leaves", "amount": "5 pcs"},
+      {"name": "chili paste", "amount": "2 tbsp"}
+    ],
+    "instructions": [
+      "Boil broth with aromatics",
+      "Add shrimp and cook",
+      "Season with lime juice",
+      "Add chili paste to taste"
+    ],
+    "author": "Nong Ploy",
+    "publishDate": "2024-07-08"
+  },
+  {
+    "id": 22,
+    "name": "Beef Tacos",
+    "description": "Mexican ground beef tacos with fresh toppings",
+    "imageUrl": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=300",
+    "prepTime": 20,
+    "difficulty": "easy",
+    "cuisine": "mexican",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.4,
+    "ingredients": [
+      {"name": "ground beef", "amount": "500g"},
+      {"name": "taco shells", "amount": "12 pcs"},
+      {"name": "lettuce", "amount": "1 head"},
+      {"name": "sour cream", "amount": "200ml"}
+    ],
+    "instructions": [
+      "Brown ground beef",
+      "Season with taco spices",
+      "Warm taco shells",
+      "Fill with beef and toppings"
+    ],
+    "author": "Diego Ramirez",
+    "publishDate": "2024-08-18"
+  },
+  {
+    "id": 23,
+    "name": "Lasagna",
+    "description": "Layered Italian pasta with meat sauce and bechamel",
+    "imageUrl": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=300",
+    "prepTime": 90,
+    "difficulty": "hard",
+    "cuisine": "italian",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.8,
+    "ingredients": [
+      {"name": "lasagna sheets", "amount": "12 pcs"},
+      {"name": "ground beef", "amount": "600g"},
+      {"name": "bechamel sauce", "amount": "500ml"},
+      {"name": "parmesan", "amount": "150g"}
+    ],
+    "instructions": [
+      "Prepare meat sauce",
+      "Make bechamel sauce",
+      "Layer pasta, meat, and sauce",
+      "Top with cheese",
+      "Bake at 180°C for 40 minutes"
+    ],
+    "author": "Lorenzo Ferrari",
+    "publishDate": "2024-06-12"
+  },
+  {
+    "id": 24,
+    "name": "Bibimbap",
+    "description": "Korean rice bowl with vegetables and gochujang",
+    "imageUrl": "https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=300",
+    "prepTime": 40,
+    "difficulty": "medium",
+    "cuisine": "korean",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.6,
+    "ingredients": [
+      {"name": "rice", "amount": "400g"},
+      {"name": "mixed vegetables", "amount": "500g"},
+      {"name": "beef", "amount": "200g"},
+      {"name": "gochujang", "amount": "3 tbsp"}
+    ],
+    "instructions": [
+      "Cook rice",
+      "Prepare and cook vegetables separately",
+      "Cook marinated beef",
+      "Arrange in bowl with egg",
+      "Mix with gochujang before eating"
+    ],
+    "author": "Kim Min-ji",
+    "publishDate": "2024-07-03"
+  },
+  {
+    "id": 25,
+    "name": "Chicken Wings",
+    "description": "Crispy buffalo chicken wings with ranch dressing",
+    "imageUrl": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+    "prepTime": 35,
+    "difficulty": "easy",
+    "cuisine": "american",
+    "category": "appetizer",
+    "diet": [],
+    "rating": 4.7,
+    "ingredients": [
+      {"name": "chicken wings", "amount": "1kg"},
+      {"name": "buffalo sauce", "amount": "200ml"},
+      {"name": "ranch dressing", "amount": "150ml"},
+      {"name": "celery sticks", "amount": "6 pcs"}
+    ],
+    "instructions": [
+      "Season wings with salt and pepper",
+      "Bake or fry until crispy",
+      "Toss in buffalo sauce",
+      "Serve with ranch and celery"
+    ],
+    "author": "Tom Jackson",
+    "publishDate": "2024-09-02"
+  },
+  {
+    "id": 26,
+    "name": "Gazpacho",
+    "description": "Cold Spanish tomato soup perfect for summer",
+    "imageUrl": "https://images.unsplash.com/photo-1541014741259-de529411b96a?w=300",
+    "prepTime": 20,
+    "difficulty": "easy",
+    "cuisine": "spanish",
+    "category": "soup",
+    "diet": ["vegan", "vegetarian"],
+    "rating": 4.3,
+    "ingredients": [
+      {"name": "tomatoes", "amount": "1kg"},
+      {"name": "cucumber", "amount": "1 pc"},
+      {"name": "bell pepper", "amount": "1 pc"},
+      {"name": "garlic", "amount": "2 cloves"}
+    ],
+    "instructions": [
+      "Blend all vegetables",
+      "Add olive oil and vinegar",
+      "Season with salt",
+      "Chill for 2 hours before serving"
+    ],
+    "author": "Carmen Lopez",
+    "publishDate": "2024-08-25"
+  },
+  {
+    "id": 28,
+    "name": "Quiche Lorraine",
+    "description": "French savory tart with bacon and cheese",
+    "imageUrl": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=300",
+    "prepTime": 50,
+    "difficulty": "medium",
+    "cuisine": "french",
+    "category": "lunch",
+    "diet": [],
+    "rating": 4.5,
+    "ingredients": [
+      {"name": "pie crust", "amount": "1 pc"},
+      {"name": "bacon", "amount": "200g"},
+      {"name": "eggs", "amount": "4 pcs"},
+      {"name": "heavy cream", "amount": "300ml"}
+    ],
+    "instructions": [
+      "Pre-bake pie crust",
+      "Fry bacon until crispy",
+      "Mix eggs with cream",
+      "Add bacon to crust",
+      "Pour egg mixture and bake"
+    ],
+    "author": "Sophie Martin",
+    "publishDate": "2024-06-28"
+  },
+  {
+    "id": 29,
+    "name": "Hummus",
+    "description": "Creamy Middle Eastern chickpea dip",
+    "imageUrl": "https://images.unsplash.com/photo-1590611936760-eeb9bc598548?w=300",
+    "prepTime": 15,
+    "difficulty": "easy",
+    "cuisine": "middle eastern",
+    "category": "appetizer",
+    "diet": ["vegan", "vegetarian"],
+    "rating": 4.4,
+    "ingredients": [
+      {"name": "chickpeas", "amount": "400g"},
+      {"name": "tahini", "amount": "100g"},
+      {"name": "lemon juice", "amount": "50ml"},
+      {"name": "garlic", "amount": "2 cloves"}
+    ],
+    "instructions": [
+      "Blend chickpeas until smooth",
+      "Add tahini and lemon juice",
+      "Mix in garlic",
+      "Drizzle with olive oil to serve"
+    ],
+    "author": "Fatima Al-Sayed",
+    "publishDate": "2024-07-15"
+  },
+  {
+    "id": 30,
+    "name": "Paella",
+    "description": "Spanish rice dish with seafood and saffron",
+    "imageUrl": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=300",
+    "prepTime": 60,
+    "difficulty": "hard",
+    "cuisine": "spanish",
+    "category": "dinner",
+    "diet": [],
+    "rating": 4.8,
+    "ingredients": [
+      {"name": "bomba rice", "amount": "400g"},
+      {"name": "mixed seafood", "amount": "600g"},
+      {"name": "saffron", "amount": "1g"},
+      {"name": "bell peppers", "amount": "2 pcs"}
+    ],
+    "instructions": [
+      "Toast rice in paella pan",
+      "Add broth and saffron",
+      "Arrange seafood on top",
+      "Cook without stirring",
+      "Let rest before serving"
+    ],
+    "author": "Pablo Sanchez",
+    "publishDate": "2024-05-30"
   }
 ]
