@@ -4,14 +4,14 @@
       <label class="filter-label">Cuisine</label>
       <select v-model="selectedCuisine" @change="applyFilters" class="filter-select">
         <option value="">All Cuisines</option>
-        <option value="italian">🇮🇹 Italian</option>
-        <option value="asian">🥢 Asian</option>
-        <option value="american">🇺🇸 American</option>
-        <option value="mexican">🌮 Mexican</option>
-        <option value="japanese">🍱 Japanese</option>
-        <option value="indian">🍛 Indian</option>
-        <option value="greek">🇬🇷 Greek</option>
-        <option value="vietnamese">🇻🇳 Vietnamese</option>
+        <option value="italian">Italian</option>
+        <option value="asian">Asian</option>
+        <option value="american">American</option>
+        <option value="mexican">Mexican</option>
+        <option value="japanese">Japanese</option>
+        <option value="indian">Indian</option>
+        <option value="greek">Greek</option>
+        <option value="vietnamese">Vietnamese</option>
       </select>
     </div>
 
@@ -19,9 +19,9 @@
       <label class="filter-label">Difficulty</label>
       <select v-model="selectedDifficulty" @change="applyFilters" class="filter-select">
         <option value="">All Levels</option>
-        <option value="easy">😊 Easy</option>
-        <option value="medium">👨‍🍳 Medium</option>
-        <option value="hard">🔥 Hard</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
       </select>
     </div>
 
@@ -29,12 +29,10 @@
       <label class="filter-label">Sort by</label>
       <select v-model="selectedSort" @change="applyFilters" class="filter-select">
         <option value="">Default</option>
-        <option value="prepTime-asc">⏱️ Time (Low to High)</option>
-        <option value="prepTime-desc">⏱️ Time (High to Low)</option>
-        <option value="rating-desc">⭐ Rating (High to Low)</option>
-        <option value="rating-asc">⭐ Rating (Low to High)</option>
-        <option value="name-asc">🔤 Name (A-Z)</option>
-        <option value="name-desc">🔤 Name (Z-A)</option>
+        <option value="prepTime-asc">Time (Low to High)</option>
+        <option value="prepTime-desc">Time (High to Low)</option>
+        <option value="name-asc">Name (A-Z)</option>
+        <option value="name-desc">Name (Z-A)</option>
       </select>
     </div>
 
@@ -66,16 +64,23 @@ export default {
     });
 
     const applyFilters = () => {
-      const filters = {};
-      
-      if (selectedCuisine.value) filters.cuisine = selectedCuisine.value;
-      if (selectedDifficulty.value) filters.difficulty = selectedDifficulty.value;
-      
+      const filters = {
+        cuisine: selectedCuisine.value || undefined,
+        difficulty: selectedDifficulty.value || undefined
+      };
+
       if (selectedSort.value) {
         const [sort, order] = selectedSort.value.split('-');
         filters.sort = sort;
         filters.order = order;
       }
+
+      // Usuń undefined values
+      Object.keys(filters).forEach(key => {
+        if (filters[key] === undefined) {
+          delete filters[key];
+        }
+      });
 
       emit('filter', filters);
     };
