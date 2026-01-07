@@ -9,7 +9,6 @@
     "cuisine": "italian",
     "category": "dinner",
     "diet": ["vegetarian"],
-    "rating": 4.5,
     "ingredients": [
       {"name": "spaghetti", "amount": "400g"},
       {"name": "eggs", "amount": "4 pcs"},
@@ -35,7 +34,6 @@
     "cuisine": "asian",
     "category": "dinner",
     "diet": [],
-    "rating": 4.8,
     "ingredients": [
       {"name": "rice noodles", "amount": "200g"},
       {"name": "shrimp", "amount": "300g"},
@@ -61,7 +59,6 @@
     "cuisine": "american",
     "category": "salad",
     "diet": ["vegetarian"],
-    "rating": 4.3,
     "ingredients": [
       {"name": "romaine lettuce", "amount": "1 head"},
       {"name": "parmesan", "amount": "50g"},
@@ -87,7 +84,6 @@
     "cuisine": "mexican",
     "category": "dinner",
     "diet": [],
-    "rating": 4.7,
     "ingredients": [
       {"name": "pork shoulder", "amount": "500g"},
       {"name": "pineapple", "amount": "200g"},
@@ -113,7 +109,6 @@
     "cuisine": "italian",
     "category": "dinner",
     "diet": ["vegetarian"],
-    "rating": 4.9,
     "ingredients": [
       {"name": "pizza dough", "amount": "1 ball"},
       {"name": "tomato sauce", "amount": "150ml"},
@@ -140,7 +135,6 @@
     "cuisine": "indian",
     "category": "dinner",
     "diet": [],
-    "rating": 4.6,
     "ingredients": [
       {"name": "chicken breast", "amount": "600g"},
       {"name": "yogurt", "amount": "200ml"},
@@ -167,7 +161,6 @@
     "cuisine": "greek",
     "category": "salad",
     "diet": ["vegetarian"],
-    "rating": 4.4,
     "ingredients": [
       {"name": "tomatoes", "amount": "3 pcs"},
       {"name": "cucumber", "amount": "1 pc"},
@@ -193,7 +186,6 @@
     "cuisine": "vietnamese",
     "category": "soup",
     "diet": [],
-    "rating": 4.8,
     "ingredients": [
       {"name": "beef bones", "amount": "1kg"},
       {"name": "rice noodles", "amount": "300g"},
@@ -220,7 +212,6 @@
     "cuisine": "american",
     "category": "breakfast",
     "diet": ["vegetarian"],
-    "rating": 4.5,
     "ingredients": [
       {"name": "flour", "amount": "200g"},
       {"name": "milk", "amount": "250ml"},
@@ -246,7 +237,6 @@
     "cuisine": "japanese",
     "category": "dinner",
     "diet": [],
-    "rating": 4.7,
     "ingredients": [
       {"name": "sushi rice", "amount": "300g"},
       {"name": "nori sheets", "amount": "5 pcs"},
@@ -273,7 +263,6 @@
     "cuisine": "american",
     "category": "dessert",
     "diet": ["vegetarian"],
-    "rating": 4.9,
     "ingredients": [
       {"name": "dark chocolate", "amount": "200g"},
       {"name": "butter", "amount": "150g"},
@@ -299,7 +288,6 @@
     "cuisine": "american",
     "category": "dinner",
     "diet": [],
-    "rating": 4.6,
     "ingredients": [
       {"name": "ground beef", "amount": "500g"},
       {"name": "burger buns", "amount": "4 pcs"},
@@ -326,7 +314,6 @@
     "cuisine": "japanese",
     "category": "soup",
     "diet": [],
-    "rating": 4.9,
     "ingredients": [
       {"name": "ramen noodles", "amount": "300g"},
       {"name": "pork belly", "amount": "400g"},
@@ -353,7 +340,6 @@
     "cuisine": "italian",
     "category": "salad",
     "diet": ["vegetarian"],
-    "rating": 4.4,
     "ingredients": [
       {"name": "fresh mozzarella", "amount": "250g"},
       {"name": "tomatoes", "amount": "4 pcs"},
@@ -379,7 +365,6 @@
     "cuisine": "british",
     "category": "dinner",
     "diet": [],
-    "rating": 4.6,
     "ingredients": [
       {"name": "cod fillets", "amount": "600g"},
       {"name": "potatoes", "amount": "800g"},
@@ -406,7 +391,6 @@
     "cuisine": "asian",
     "category": "dinner",
     "diet": ["vegan", "vegetarian"],
-    "rating": 4.3,
     "ingredients": [
       {"name": "mixed vegetables", "amount": "500g"},
       {"name": "soy sauce", "amount": "4 tbsp"},
@@ -432,7 +416,6 @@
     "cuisine": "italian",
     "category": "dessert",
     "diet": ["vegetarian"],
-    "rating": 4.8,
     "ingredients": [
       {"name": "ladyfinger biscuits", "amount": "300g"},
       {"name": "mascarpone", "amount": "500g"},
@@ -459,7 +442,6 @@
     "cuisine": "french",
     "category": "breakfast",
     "diet": ["vegetarian"],
-    "rating": 4.9,
     "ingredients": [
       {"name": "flour", "amount": "500g"},
       {"name": "butter", "amount": "300g"},
@@ -486,7 +468,6 @@
     "cuisine": "thai",
     "category": "soup",
     "diet": [],
-    "rating": 4.7,
     "ingredients": [
       {"name": "shrimp", "amount": "400g"},
       {"name": "lemongrass", "amount": "3 stalks"},
@@ -512,7 +493,6 @@
     "cuisine": "mexican",
     "category": "dinner",
     "diet": [],
-    "rating": 4.4,
     "ingredients": [
       {"name": "ground beef", "amount": "500g"},
       {"name": "taco shells", "amount": "12 pcs"},
@@ -538,7 +518,6 @@
     "cuisine": "italian",
     "category": "dinner",
     "diet": [],
-    "rating": 4.8,
     "ingredients": [
       {"name": "lasagna sheets", "amount": "12 pcs"},
       {"name": "ground beef", "amount": "600g"},
@@ -565,7 +544,6 @@
     "cuisine": "korean",
     "category": "dinner",
     "diet": [],
-    "rating": 4.6,
     "ingredients": [
       {"name": "rice", "amount": "400g"},
       {"name": "mixed vegetables", "amount": "500g"},
@@ -592,7 +570,6 @@
     "cuisine": "american",
     "category": "appetizer",
     "diet": [],
-    "rating": 4.7,
     "ingredients": [
       {"name": "chicken wings", "amount": "1kg"},
       {"name": "buffalo sauce", "amount": "200ml"},
@@ -618,7 +595,6 @@
     "cuisine": "spanish",
     "category": "soup",
     "diet": ["vegan", "vegetarian"],
-    "rating": 4.3,
     "ingredients": [
       {"name": "tomatoes", "amount": "1kg"},
       {"name": "cucumber", "amount": "1 pc"},
@@ -644,7 +620,6 @@
     "cuisine": "french",
     "category": "lunch",
     "diet": [],
-    "rating": 4.5,
     "ingredients": [
       {"name": "pie crust", "amount": "1 pc"},
       {"name": "bacon", "amount": "200g"},
@@ -671,7 +646,6 @@
     "cuisine": "middle eastern",
     "category": "appetizer",
     "diet": ["vegan", "vegetarian"],
-    "rating": 4.4,
     "ingredients": [
       {"name": "chickpeas", "amount": "400g"},
       {"name": "tahini", "amount": "100g"},
@@ -697,7 +671,6 @@
     "cuisine": "spanish",
     "category": "dinner",
     "diet": [],
-    "rating": 4.8,
     "ingredients": [
       {"name": "bomba rice", "amount": "400g"},
       {"name": "mixed seafood", "amount": "600g"},

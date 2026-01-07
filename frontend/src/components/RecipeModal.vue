@@ -33,13 +33,6 @@
                 </div>
               </div>
               <div class="meta-card">
-                <span class="meta-icon">⭐</span>
-                <div>
-                  <div class="meta-label">Rating</div>
-                  <div class="meta-value">{{ recipe.rating }}</div>
-                </div>
-              </div>
-              <div class="meta-card">
                 <span class="meta-icon">🍴</span>
                 <div>
                   <div class="meta-label">Cuisine</div>
@@ -50,7 +43,7 @@
 
             <!-- Składniki -->
             <div class="modal-section">
-              <h3 class="section-title">📋 Ingredients</h3>
+              <h3 class="section-title">Ingredients</h3>
               <ul class="ingredients-list">
                 <li v-for="(ingredient, index) in recipe.ingredients" :key="index">
                   <span class="ingredient-name">{{ ingredient.name }}</span>
@@ -61,7 +54,7 @@
 
             <!-- Instrukcje -->
             <div class="modal-section">
-              <h3 class="section-title">👨‍🍳 Instructions</h3>
+              <h3 class="section-title">👨Instructions</h3>
               <ol class="instructions-list">
                 <li v-for="(instruction, index) in recipe.instructions" :key="index">
                   {{ instruction }}

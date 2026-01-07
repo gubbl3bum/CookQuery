@@ -13,17 +13,10 @@
       
       <div class="recipe-meta">
         <div class="meta-item">
-          <span class="meta-icon">⏱️</span>
           <span class="meta-label">Prep Time:</span>
           <span class="meta-value">{{ recipe.prepTime }} Min</span>
         </div>
         <div class="meta-item">
-          <span class="meta-icon">⭐</span>
-          <span class="meta-label">Rating:</span>
-          <span class="meta-value">{{ recipe.rating }}</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-icon">🍴</span>
           <span class="meta-label">Cuisine:</span>
           <span class="meta-value">{{ recipe.cuisine }}</span>
         </div>

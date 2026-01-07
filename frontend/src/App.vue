@@ -115,7 +115,17 @@ export default {
     };
 
     const handleFilter = (newFilters) => {
-      filters.value = { ...filters.value, ...newFilters };
+      // Zachowaj tylko search z poprzedniego stanu
+      const search = filters.value.search;
+
+      // Ustaw nowe filtry
+      filters.value = { ...newFilters };
+
+      // Przywróć search jeśli był
+      if (search) {
+        filters.value.search = search;
+      }
+
       currentPage.value = 1;
       fetchRecipes();
     };
